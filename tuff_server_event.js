@@ -9,7 +9,8 @@ event.custom({
     "loops": 1,
     "results": [
       {
-        "item": "minecraft:tuff"
+        "item": "minecraft:tuff",
+        "count": 10
       }
     ],
     "sequence": [
