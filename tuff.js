@@ -1,12 +1,12 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "forge:dusts/obsidian"
+    "tag": "minecraft:andesite"
   },
   "loops": 1,
   "results": [
     {
-      "item": "create:sturdy_sheet"
+      "item": "minecraft:tuff"
     }
   ],
   "sequence": [
@@ -14,7 +14,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "create:unprocessed_obsidian_sheet"
+          "item": ""
         },
         {
           "amount": 500,
@@ -24,7 +24,7 @@
       ],
       "results": [
         {
-          "item": "create:unprocessed_obsidian_sheet"
+          "item": ""
         }
       ]
     },
@@ -37,7 +37,7 @@
       ],
       "results": [
         {
-          "item": "create:unprocessed_obsidian_sheet"
+          "item": ""
         }
       ]
     },
