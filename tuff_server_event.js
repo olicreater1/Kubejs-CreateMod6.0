@@ -1,69 +1,26 @@
-//create recipe for tuff from assmbley
+//create recipe for tuff from compacting andesite, charcoal, and lava
 ServerEvents.recipes(event => {
 event.custom({
-  {
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-      "tag": "minecraft:andesite"
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
     },
-    "loops": 1,
-    "results": [
-      {
-        "item": "minecraft:tuff",
-        "count": 10
-      }
-    ],
-    "sequence": [
-      {
-        "type": "create:filling",
-        "ingredients": [
-          {
-            "item": ""
-          },
-          {
-            "amount": 500,
-            "fluid": "minecraft:lava",
-            "nbt": {}
-          }
-        ],
-        "results": [
-          {
-            "item": ""
-          }
-        ]
-      },
-      {
-        "type": "create:item_application",
-        "ingredients": [
-          {
-            "item": "minecraft:diorite"
-          }
-        ],
-        "results": [
-          {
-            "item": ""
-          }
-        ]
-      },
-      {
-        "type": "create:compacting",
-        "heatRequirement" : superheated
-        "ingredients": [
-          {
-            "item": ""
-          }
-        ],
-        "results": [
-          {
-            "item": ""
-          }
-        ]
-      }
-    ],
-    "transitionalItem": {
-      "item": ""
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "amount": 100,
+      "fluid": "minecraft:lava",
+      "nbt": {}
     }
-  }
+  ],
+  "results": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ]
+}
 })
 })
-  
