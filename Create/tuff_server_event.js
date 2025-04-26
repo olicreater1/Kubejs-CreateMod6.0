@@ -1,7 +1,7 @@
 //create recipe for tuff from compacting andesite, charcoal, and lava
 ServerEvents.recipes(event => {
-event.custom({
-{
+  event.custom({
+    {
   "type": "create:compacting",
   "ingredients": [
     {
@@ -21,6 +21,6 @@ event.custom({
       "item": "minecraft:tuff"
     }
   ]
-}
-})
+    },
+  })
 })
